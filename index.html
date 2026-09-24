@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Acessibilidade Digital | Sistemas para Pessoas Autistas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- Link Acessível para Teclado (Skip to Content) -->
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- =====================================================
+         BARRA DE NAVEGAÇÃO
+    ===================================================== -->
+    <header>
+        <nav class="navbar" aria-label="Navegação principal">
+            <a href="#inicio" class="logo">
+                <span class="logo-icon" aria-hidden="true">♿</span>
+                <span>Guia de Acessibilidade</span>
+            </a>
+
+            <ul class="menu">
+                <li><a href="#inicio" >Início</a></li>
+                <li><a href="#categorias">Recomendações</a></li>
+                <li><a href="#sobre">Sobre a Pesquisa</a></li>
+            </ul>
+
+            <button class="accessibility" aria-label="Abrir opções de acessibilidade" title="Opções de acessibilidade">
+                <span aria-hidden="true">♿</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ===================================================== -->
+    <main id="conteudo-principal">
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="inicio">
+            <div class="hero-container">
+                
+                <h1>Guia de Acessibilidade para <mark>Sistemas Educacionais</mark></h1>
+
+                <p class="hero-subtitle">
+                    Diretrizes e recomendações práticas para o desenvolvimento e design de interfaces mais acessíveis, previsíveis e confortáveis para pessoas autistas.
+                </p>
+
+                <div class="hero-description">
+                    <p>
+                        Construído a partir de estudos empíricos e triangulação de dados com desenvolvedores, designers, professores e estudantes com Transtorno do Espectro Autista (TEA).
+                    </p>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#categorias" class="btn btn-primary">
+                        Explorar Recomendações ➔
+                    </a>
+                    <a href="#sobre" class="btn btn-secondary">
+                        Conhecer a Pesquisa
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIAS / RECOMENDAÇÕES -->
+        <section class="categorias" id="categorias">
+            <div class="categorias-container">
+
+                <div class="secao-header">
+                    <h2>Recomendações do Guia</h2>
+                    <p class="categorias-intro">
+                        Conjunto de diretrizes organizadas em fichas práticas com exemplos de código, padrões de interface e evidencias da pesquisa.
+                    </p>
+                </div>
+
+                <div class="categorias-grid">
+
+                    <!-- R01 -->
+                    <a href="navegacao.html" class="categoria-card cor-1">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R01</span>
+                            <div class="categoria-icon" aria-hidden="true">📋</div>
+                        </div>
+                        <h3>Instruções claras, objetivas e orientadas à ação</h3>
+                        <p>Apresente orientações diretas, dividindo tarefas complexas em etapas simples e acionáveis.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R02 -->
+                    <a href="categoria2.html" class="categoria-card cor-2">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R02</span>
+                            <div class="categoria-icon" aria-hidden="true">🧭</div>
+                        </div>
+                        <h3>Favorecer a previsibilidade durante a interação</h3>
+                        <p>Permita ao usuário compreender onde está, o que pode acontecer e como antecipar o comportamento do sistema sem mudanças inesperadas de contexto.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R03 -->
+                    <a href="categoria3.html" class="categoria-card cor-3">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R03</span>
+                            <div class="categoria-icon" aria-hidden="true">🗂️</div>
+                        </div>
+                        <h3>Organizar informações de forma hierárquica</h3>
+                        <p>Facilite a compreensão das relações entre conteúdos e a localização de informações.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R04 -->
+                    <a href="categoria4.html" class="categoria-card cor-4">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R04</span>
+                            <div class="categoria-icon" aria-hidden="true">🎛️</div>
+                        </div>
+                        <h3>Oferecer flexibilidade para diferentes formas de acesso e interação</h3>
+                        <p>Permita ajustes de interface e alternativas de interação para que o usuário acesse conteúdos e realize ações de múltiplas formas.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R05 -->
+                    <a href="categoria5.html" class="categoria-card cor-5">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R05</span>
+                            <div class="categoria-icon" aria-hidden="true">🧹</div>
+                        </div>
+                        <h3>Fornecer feedback claro e compreensível durante a interação</h3>
+                        <p>Informe o que aconteceu, o que está acontecendo e, quando necessário, o que fazer em seguida após ações relevantes no sistema.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R06 -->
+                    <a href="categoria6.html" class="categoria-card cor-6">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R06</span>
+                            <div class="categoria-icon" aria-hidden="true">🏷️</div>
+                        </div>
+                        <h3>Reduzir informações, estímulos e elementos desnecessários</h3>
+                        <p>Diminua distrações visual ou sensorial.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                    <!-- R07 -->
+                    <a href="categoria7.html" class="categoria-card cor-7">
+                        <div class="categoria-card-top">
+                            <span class="categoria-codigo">RECOMENDAÇÃO R07</span>
+                            <div class="categoria-icon" aria-hidden="true">💬</div>
+                        </div>
+                        <h3>Torne informações e controles compreensíveis e identificáveis</h3>
+                        <p>Use textos, símbolos, controles e outras representações de modo que seu propósito e funcionamento possam ser facilmente compreendidos.</p>
+                        <span class="card-link-texto">Ver ficha completa ➔</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE A PESQUISA -->
+        <section class="sobre-secao" id="sobre">
+            <div class="sobre-container">
+                <h2>Sobre a Pesquisa</h2>
+                <p>
+                    Este guia foi construído como artefato da pesquisa de mestrado, fundamentado na triangulação de três fontes empíricas:
+                </p>
+                <div class="sobre-grid">
+                    <div class="sobre-item">
+                        <strong>👨‍💻 Desenvolvedores & Designers</strong>
+                        <p>Identificação de barreiras de implementação e lacunas no uso de diretrizes de acessibilidade.</p>
+                    </div>
+                    <div class="sobre-item">
+                        <strong>👨‍🏫 Professores do Ensino Superior</strong>
+                        <p>Mapeamento de desafios pedagógicos e estratégias de acompanhamento no ambiente virtual.</p>
+                    </div>
+                    <div class="sobre-item">
+                        <strong>🎓 Estudantes Autistas</strong>
+                        <p>Levantamento direto de preferências, queixas e necessidades de interação em sistemas de ensino.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Guia de Acessibilidade Digital para Pessoas Autistas • Pesquisa de Mestrado</p>
+        </div>
+    </footer>
+
+</body>
+</html>

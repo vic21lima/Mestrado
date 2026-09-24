@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R06 — Redução de Sobrecarga e Estímulos | Guia de Acessibilidade</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/estiloo.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/modais.js" defer></script>
+</head>
+<body>
+
+<!-- =====================================================
+     MENU DE NAVEGAÇÃO
+===================================================== -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">♿</span>
+            <span>Guia de Acessibilidade</span>
+        </a>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#categorias">Recomendações</a>
+           
+        </div>
+
+        <button class="accessibility" aria-label="Abrir opções de acessibilidade" title="Opções de acessibilidade">♿</button>
+    </nav>
+</header>
+
+<!-- =====================================================
+     CONTEÚDO PRINCIPAL DA PÁGINA
+     Ordem: 1. Recomendação R06  2. Instrução  3. O que é?
+     4. Por que é importante?  5. Dimensões (modal)
+     6. Como aplicar (modal dev/design)  7. Teste / Verifique
+     8. Referências
+===================================================== -->
+<main class="conteudo">
+
+    <!-- 1. RECOMENDAÇÃO R06 (título da página) -->
+    <section class="titulo-categoria">
+        <div class="icone">🔇</div>
+        <span class="codigo-recomendacao">RECOMENDAÇÃO R06</span>
+
+        <h1>Reduzir informações, estímulos e elementos desnecessários</h1>
+        <p>
+            Diminua distrações visual ou sensorial.
+        </p>
+    </section>
+
+    <!-- 2. INSTRUÇÃO (enunciado da recomendação) -->
+    <section class="secao">
+        <h2>Instrução</h2>
+        <div class="recomendacao-principal">
+            <strong>R06 — Reduza informações, estímulos e elementos desnecessários.</strong>
+            <p>
+                O sistema deve evitar estímulos e informações desnecessárias que possam dificultar a concentração, aumentar o desconforto sensorial ou tornar a interação excessivamente complexa.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. O QUE É -->
+    <section class="secao">
+        <h2>O que é?</h2>
+        <p>
+            Esta recomendação trata de reduzir informações, estímulos e elementos desnecessários em sistemas digitais educacionais.
+        </p>
+        <p>
+            Em plataformas de ensino, ela orienta a eliminação de ruídos visuais, banners decorativos em excesso, pop-ups de avisos não essenciais e a proibição de reprodução automática de vídeos, áudios ou animações durante a leitura e execução de atividades.
+        </p>
+    </section>
+
+    <!-- 4. POR QUE É IMPORTANTE -->
+    <section class="secao">
+        <h2>Por que isso é importante?</h2>
+        <p>
+            O excesso de estímulos visuais ou auditivos simultâneos sobrecarrega o processamento cognitivo e pode gerar ansiedade ou desorientação durante o estudo.
+        </p>
+        
+
+        <div class="destaque">
+            <strong>Atenção</strong>
+            <p>
+               Reduzir elementos desnecessários não significa criar telas vazias ou remover apoios visuais essenciais.
+            </p>
+        </div>
+    </section>
+
+    <!-- 5. DIMENSÕES DA RECOMENDAÇÃO (abrem modal) -->
+    <section class="secao">
+        <h2>Dimensões da recomendação</h2>
+
+        <div class="dimensoes">
+
+            <!-- R06.1 -->
+            <button class="dimensao" data-preview="distracao" aria-haspopup="dialog">
+                <span class="numero">R06.1</span>
+                <h3>Redução de distrações</h3>
+                <p>Evite elementos sem função prática para a realização da tarefa.</p>
+            </button>
+
+            <!-- R06.2 -->
+            <button class="dimensao" data-preview="organizacao" aria-haspopup="dialog">
+                <span class="numero">R06.2</span>
+                <h3>Organização visual</h3>
+                <p>Impeça que múltiplos elementos concorram simultaneamente pela atenção.</p>
+            </button>
+
+            <!-- R06.3 -->
+            <button class="dimensao" data-preview="estimulos" aria-haspopup="dialog">
+                <span class="numero">R06.3</span>
+                <h3>Controle de estímulos</h3>
+                <p>Evite movimento, som ou mudanças visuais automáticas sem necessidade.</p>
+            </button>
+
+            <!-- R06.4 -->
+            <button class="dimensao" data-preview="priorizacao" aria-haspopup="dialog">
+                <span class="numero">R06.4</span>
+                <h3>Priorização</h3>
+                <p>Dê destaque total ao conteúdo e à ação principal da tela.</p>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- 6. COMO APLICAR NA PRÁTICA (modal dev / design) -->
+    <section class="secao" id="como-aplicar">
+        <h2>Como aplicar na prática?</h2>
+        <p>
+            A seguir, exemplos de como a recomendação R06 pode ser aplicada por desenvolvedores e designers:
+        </p>
+
+        <div class="cartoes-aplicar">
+            <button class="cartao-aplicar" data-aplicar="desenvolvedor" aria-haspopup="dialog">
+                <span class="numero">👩‍💻</span>
+                <strong>Para desenvolvedores</strong>
+            </button>
+
+            <button class="cartao-aplicar" data-aplicar="design" aria-haspopup="dialog">
+                <span class="numero">🎨</span>
+                <strong>Para designers</strong>
+            </button>
+        </div>
+    </section>
+
+    <!-- 7. TESTE / VERIFIQUE (perguntas de validação) -->
+    <section class="secao">
+        <h2>Teste / Verifique</h2>
+        <p>Utilize as perguntas abaixo para revisar a redução de estímulos e de elementos desnecessários:</p>
+        <div>
+            <ul>
+                <li>✓ Todos os elementos da tela têm função para a tarefa atual, sem banners, pop-ups ou decorações que disputem a atenção?</li>
+                <li>✓ Os elementos secundários ficam em segundo plano ou ocultos (revelação progressiva), sem vários avisos com o mesmo peso visual lado a lado?</li>
+                <li>✓ Vídeos, áudios e animações só iniciam por ação do usuário, sem <code>autoplay</code> nem carrosséis automáticos?</li>
+                <li>✓ O conteúdo e a ação principal da tela têm o maior destaque e aparecem cedo na ordem de leitura e de tabulação?</li>
+            </ul>
+        </div>
+    </section>
+
+  <section class="fundamentacao">
+
+    <h2>Referência</h2>
+
+    <div class="fundamentacao-item">
+        <h3>GAIA</h3>
+        <p>
+            G09, G10, G18 — recomendações relacionadas à eliminar distrações, interfaces simples, evitar sons pertubadores
+            <a href="https://gaia.wiki.br/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+    <div class="fundamentacao-item">
+        <h3>WCAG 2.2</h3>
+        <p>
+            1.4.2, 2.2.2, 2.3.1 e 2.3.3 — critérios relacionados
+            melhorar texto <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+    <div class="fundamentacao-item">
+        <h3>COGA</h3>
+        <p>
+            Help Users Focus: <br>
+            O COGA trata explicitamente de ajudar o usuário a 
+            manter o foco e inclui orientações complementares para reduzir distrações e facilitar a concentração
+             <a href="https://www.w3.org/TR/coga-user-research/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+</section>
+
+        <!-- <div class="recomendacao-principal">
+            <p>
+                Sintetiza as evidências empíricas sobre sensibilidade sensorial e cognitiva em pessoas autistas, oferecendo diretrizes técnicas para desenvolvedores e designers limparem as interfaces educacionais mantendo o foco exclusivo na aprendizagem.
+            </p>
+        </div>
+    </section> -->
+
+    <a href="index.html#categorias" class="voltar">← Voltar para Categorias</a>
+
+</main>
+
+<!-- =====================================================
+     MODAIS NATIVOS (<dialog>)
+===================================================== -->
+<dialog id="modal-recomendacao" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-recomendacao-conteudo"></div>
+</dialog>
+
+<dialog id="modal-aplicar" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-aplicar-conteudo"></div>
+</dialog>
+
+<!-- =====================================================
+     TEMPLATES DE CONTEÚDO DOS MODAIS
+===================================================== -->
+
+<!-- Prévia R06.1 -->
+<template id="tpl-preview-distracao">
+    <h3>R06.1 — Redução de distrações</h3>
+    <p>Evite elementos sem função prática para a realização da tarefa.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Banners promocionais internos, pop-ups flutuantes ou decorações visuais que disputam espaço na tela de estudo.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Exibir apenas o conteúdo da aula e as ferramentas necessárias para a realização da atividade atual.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R06.2 -->
+<template id="tpl-preview-organizacao">
+    <h3>R06.2 — Organização visual</h3>
+    <p>Impeça que múltiplos elementos concorram simultaneamente pela atenção.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Exibir múltiplas caixas de avisos coloridos com o mesmo peso visual lado a lado.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Utilizar revelação progressiva para informações secundárias, mantendo a tela limpa.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R06.3 -->
+<template id="tpl-preview-estimulos">
+    <h3>R06.3 — Controle de estímulos</h3>
+    <p>Evite movimento, som ou mudanças visuais automáticas sem necessidade.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Vídeos ou áudios com reprodução automática (autoplay) e carrosséis com transição contínua.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Exigir ação explícita do usuário para iniciar vídeos ou mídias (botão Play explícito).</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R06.4 -->
+<template id="tpl-preview-priorizacao">
+    <h3>R06.4 — Priorização</h3>
+    <p>Dê destaque total ao conteúdo e à ação principal da tela.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Botão de entrega de atividade camuflado entre menus laterais e links secundários de rodapé.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Posicionar a área de leitura e o botão de ação em primeiro plano centralizado.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Como aplicar — desenvolvedor -->
+<template id="tpl-aplicar-desenvolvedor">
+
+    <h3>👩‍💻 Como o desenvolvedor pode aplicar a R06</h3>
+
+    <p>
+        Um resumo do que a marcação precisa garantir,
+        juntando as quatro dimensões da recomendação:
+    </p>
+
+    <ul class="lista">
+        <li><strong>Redução de distrações:</strong> não gere banners, notificações ou animações sem função para a tarefa; mantenha elementos decorativos fora da árvore de acessibilidade usando <code>aria-hidden="true"</code>.</li>
+        <li><strong>Organização visual:</strong> evite a injeção dinâmica de pop-ups ou modais intrusivos durante o fluxo de leitura do estudante.</li>
+        <li><strong>Controle de estímulos:</strong> remova atributos de reprodução automática (<code>autoplay</code>) de tags de <code>&lt;video&gt;</code> e <code>&lt;audio&gt;</code> e desative carrosséis automáticos.</li>
+        <li><strong>Priorização:</strong> estruture o HTML colocando o elemento de ação principal (ex: o botão de iniciar o questionário) em destaque no fluxo de tabulação.</li>
+    </ul>
+
+    <h4>Código</h4>
+
+    <pre><code>&lt;section aria-labelledby="titulo-atividade-limpa"&gt;
+
+&lt;!-- R06.4 — PRIORIZAÇÃO: foco no conteúdo principal --&gt;
+&lt;h2 id="titulo-atividade-limpa"&gt;
+    Leitura do Capítulo 02 — Estruturas Semânticas
+&lt;/h2&gt;
+
+&lt;p class="instrucao-destaque"&gt;
+    Leia o capítulo indicado abaixo e responda ao questionário ao final.
+&lt;/p&gt;
+
+&lt;!-- R06.3 — CONTROLE DE ESTÍMULOS: vídeo SEM autoplay e com controles manuais --&gt;
+&lt;div class="video-container"&gt;
+    &lt;h3&gt;Vídeo Explicativo (Opcional)&lt;/h3&gt;
+    &lt;video controls preload="metadata" aria-label="Vídeo introdutório sobre estruturas semânticas"&gt;
+        &lt;source src="video-aula.mp4" type="video/mp4"&gt;
+        Seu navegador não suporta este vídeo.
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;!-- R06.1 e R06.2 — REDUÇÃO DE DISTRAÇÕES: elemento decorativo oculto para leitores de tela --&gt;
+&lt;div class="divisor-decorativo" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;!-- Ação principal sem elementos concorrentes --&gt;
+&lt;a href="questionario.html" class="btn-acao-principal"&gt;
+    Iniciar questionário
+&lt;/a&gt;
+
+&lt;/section&gt;</code></pre>
+
+    
+</template>
+
+<!-- Como aplicar — design -->
+<template id="tpl-aplicar-design">
+    <h3>🎨 Como o designer pode aplicar a R06</h3>
+    <!-- <p>Projete interfaces limpas que minimizem ruídos visuais e sobrecarga cognitiva:</p>
+    <ul class="lista">
+        <li><strong>Sossego Sensorial:</strong> Elimine animações decorativas contínuas e evite cores saturadas em grandes superfícies.</li>
+        <li><strong>Revelação Progressiva:</strong> Mantenha visível apenas o que for essencial para o passo atual, ocultando detalhes em menus colapsáveis.</li>
+        <li><strong>Sem Autoplay:</strong> Nunca configure áudios ou vídeos para tocar automaticamente nos protótipos de tela.</li>
+    </ul> -->
+    <p>Em construção</p>
+</template>
+
+<!-- =====================================================
+     BOTÃO VOLTAR AO TOPO
+===================================================== -->
+<button id="voltarTopo" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+</body>
+</html>

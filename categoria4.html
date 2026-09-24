@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R04 — Flexibilidade e Personalização | Guia de Acessibilidade</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="assets/css/estiloo.css">
+</head>
+<body>
+
+<!-- =====================================================
+     MENU DE NAVEGAÇÃO
+===================================================== -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">♿</span>
+            <span>Guia de Acessibilidade</span>
+        </a>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#categorias">Recomendações</a>
+          
+        </div>
+
+        <button class="accessibility" aria-label="Abrir opções de acessibilidade" title="Opções de acessibilidade">♿</button>
+    </nav>
+</header>
+
+<!-- =====================================================
+     CONTEÚDO PRINCIPAL DA PÁGINA
+===================================================== -->
+<main class="conteudo">
+
+    <!-- 1. TÍTULO -->
+    <section class="titulo-categoria">
+        <div class="icone">🎛️</div>
+        <span class="codigo-recomendacao">RECOMENDAÇÃO R04</span>
+
+        <h1>Oferecer flexibilidade para diferentes formas de acesso e interação</h1>
+        <p>
+            Permita ajustes de interface e alternativas de interação para que o usuário acesse conteúdos e realize ações de múltiplas formas.
+        </p>
+    </section>
+
+    <!-- 2. RECOMENDAÇÃO PRINCIPAL -->
+    <section class="secao">
+        <h2>Recomendação</h2>
+        <div class="recomendacao-principal">
+            <strong>R04 — Ofereça flexibilidade para diferentes formas de acesso e interação.</strong>
+            <p>
+                Ofereça alternativas de interação e ajustes de interface para que o usuário possa acessar conteúdos e realizar ações de múltiplas formas.
+            </p>
+        </div>
+    </section> 
+
+      <!-- 4. O QUE É -->
+    <section class="secao">
+        <h2>O que é?</h2>
+        <p>
+            Esta recomendação trata de oferecer flexibilidade para diferentes formas de acesso e interação em sistemas digitais educacionais.
+        </p>
+        <p>
+            Em plataformas de ensino, ela orienta o suporte a múltiplos formatos de envio de tarefas (ex: documento formatado, texto digitado ou gravação de áudio), suporte a eventos de teclado e personalização de elementos sensoriais (como redução de movimento e controle de contraste).
+        </p>
+    </section>
+
+    <!-- 5. POR QUE É IMPORTANTE -->
+    <section class="secao">
+        <h2>Por que isso é importante?</h2>
+        <p>
+            Pessoas no espectro autista possuem perfis sensoriais e cognitivos heterogêneos. Impor um único modo rígido de interagir com componentes ou enviar atividades pode criar barreiras técnicas e gerar sobrecarga desnecessária.
+        </p>
+
+        <div class="destaque">
+            <strong>Atenção</strong>
+            <p>
+                Não apresentar a orientação como regra universal estática para todas as pessoas autistas. A flexibilidade deve permitir escolhas individuais sem poluir a interface com excesso de controles desnecessários.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- 3. DIMENSÕES DA RECOMENDAÇÃO -->
+    <section class="secao">
+        <div class="dimensoes">
+
+            <!-- R04.1 -->
+            <button class="dimensao" data-preview="alternativas" aria-haspopup="dialog">
+                <span class="numero">R04.1</span>
+                <h3>Alternativas de interação</h3>
+                <p>Quando possível, não dependa de uma única forma ou evento para realizar uma ação.</p>
+            </button>
+
+            <!-- R04.2 -->
+            <button class="dimensao" data-preview="personalizacao" aria-haspopup="dialog">
+                <span class="numero">R04.2</span>
+                <h3>Personalização</h3>
+                <p>Permita ajustes relevantes da apresentação visual e sensorial.</p>
+            </button>
+
+            <!-- R04.3 -->
+            <button class="dimensao" data-preview="flexibilidade" aria-haspopup="dialog">
+                <span class="numero">R04.3</span>
+                <h3>Flexibilidade na tarefa</h3>
+                <p>Admita formas e formatos alternativos de entrada e submissão de componentes.</p>
+            </button>
+
+            <!-- R04.4 -->
+            <button class="dimensao" data-preview="adaptacao" aria-haspopup="dialog">
+                <span class="numero">R04.4</span>
+                <h3>Adaptação</h3>
+                <p>Trate preferências individuais como configurações opcionais e configuráveis pelo usuário.</p>
+            </button>
+
+        </div>
+    </section>
+
+
+      <!-- 10. COMO APLICAR NA PRÁTICA -->
+    <section class="secao" id="como-aplicar">
+        <h2>Como aplicar na prática?</h2>
+        <p>
+            A seguir, exemplos de como a recomendação R04 pode ser aplicada por desenvolvedores e designers:
+        </p>
+
+        <div class="cartoes-aplicar">
+            <button class="cartao-aplicar" data-aplicar="desenvolvedor" aria-haspopup="dialog">
+                <!-- <span class="numero">💻</span> -->
+                <strong>💻 Para desenvolvedores</strong>
+            </button>
+
+            <button class="cartao-aplicar" data-aplicar="design" aria-haspopup="dialog">
+                <!-- <span class="numero">🎨</span> -->
+                <strong>🎨 Para designers</strong>
+            </button>
+        </div>
+    </section> 
+
+    
+    <!-- 9. TESTE / VERIFIQUE -->
+    <section class="secao">
+        <h2>Teste / Verifique</h2>
+        <p>Utilize as perguntas abaixo para revisar a acessibilidade da solução de interface:</p>
+        <div class="recomendacao-principal">
+            <ul class="lista">
+                <li>✓ O sistema permite realizar a ação por mais de um tipo de evento ou dispositivo de entrada (ex: teclado e clique)?</li>
+                <li>✓ Há suporte a múltiplos formatos de envio de arquivo em formulários?</li>
+                <li>✓ O usuário consegue ajustar parâmetros sensoriais (como pausar animações ou ajustar contraste)?</li>
+                <li>✓ As preferências de personalização são salvas sem forçar alterações estáticas irreversíveis no layout?</li>
+            </ul>
+        </div>
+    </section>
+
+<!--   
+    6. RELAÇÃO COM DIRETRIZES
+    <section class="secao">
+        <h2>Relação com recomendações existentes</h2>
+        <p>
+            A recomendação R04 foi analisada e correlacionada com diretrizes existentes e evidências empíricas:
+        </p>
+
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Referência</th>
+                        <th>Relação com R04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GAIA</td>
+                        <td>Diretriz G05 (Customização Visual) — expandida pelo guia para abranger alternativas de interação e flexibilidade em componentes.</td>
+                    </tr>
+                    <tr>
+                        <td>WCAG / COGA</td>
+                        <td>Princípios de Adaptabilidade (1.4), Acessibilidade por Teclado (2.1) e Modalidades de Entrada (2.5).</td>
+                    </tr>
+                    <tr>
+                        <td>Estudos da pesquisa</td>
+                        <td>Convergência forte sobre a necessidade de ajustes sensoriais, controle de animações/sons e flexibilização nos formatos de entrada.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> -->
+
+    <!-- 7. CONTRIBUIÇÃO DA RECOMENDAÇÃO -->
+    <!-- <section class="secao">
+        <h2>Contribuição desta recomendação</h2>
+        <div class="recomendacao-principal">
+            <p>
+                Amplia o conceito de acessibilidade estética para uma visão integrada de experiência, cobrindo alternativas de entrada (teclado/clique), preferências sensoriais e formatos flexíveis de formulário no sistema.
+            </p>
+        </div>
+    </section> -->
+
+
+   <section class="fundamentacao">
+
+    <h2>Referências</h2>
+
+    <div class="fundamentacao-item">
+        <h3>GAIA</h3>
+        <p>
+            G05, G06, G07 e G07 — recomendações relacionadas à customonização 
+            <a href="https://gaia.wiki.br/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+    <div class="fundamentacao-item">
+        <h3>COGA</h3>
+        <p>
+           Support Adaptation and Personalization:<br>
+           Essa orientação do COGA recomenda suporte à adaptação e personalização, incluindo simplificação e interfaces personalizadas.
+            para encontrar informações. <a href="https://www.w3.org/TR/coga-user-research/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+</section>
+
+    <a href="index.html#categorias" class="voltar">← Voltar para Categorias</a>
+
+</main>
+
+<!-- =====================================================
+     MODAIS NATIVOS (<dialog>)
+===================================================== -->
+<dialog id="modal-recomendacao" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-recomendacao-conteudo"></div>
+</dialog>
+
+<dialog id="modal-aplicar" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-aplicar-conteudo"></div>
+</dialog>
+
+<!-- =====================================================
+     TEMPLATES DE CONTEÚDO DOS MODAIS
+===================================================== -->
+
+<!-- Prévia R04.1 -->
+<template id="tpl-preview-alternativas">
+    <h3>R04.1 — Alternativas de interação</h3>
+    <p>Quando possível, não dependa de uma única forma ou evento para realizar uma ação.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Ações acionáveis apenas por gesto de arrastar e soltar sem equivalente por clique ou teclado.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Fornecer botões de seleção ou atalhos de teclado para realizar a mesma movimentação de itens.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R04.2 -->
+<template id="tpl-preview-personalizacao">
+    <h3>R04.2 — Personalização</h3>
+    <p>Permita ajustes relevantes da apresentação visual ou sonora.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Fixar tamanhos de fonte e esquemas de cores sem suporte a alto contraste ou redimensionamento do navegador.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Respeitar preferências do sistema operacional  e permitir ajustes visuais.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R04.3 -->
+<template id="tpl-preview-flexibilidade">
+    <h3>R04.3 — Flexibilidade na tarefa</h3>
+    <p>Admita formas e formatos alternativos de entrada e submissão de componentes.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Exigir estritamente um único tipo de arquivo de envio quando a plataforma pode aceitar múltiplos formatos.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Permitir envio em PDF, documento editável ou caixa de texto digitado direto.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R04.4 -->
+<template id="tpl-preview-adaptacao">
+    <h3>R04.4 — Adaptação</h3>
+    <p>Não transforme uma preferência em regra universal estática.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Impor um modo escuro ou fonte simplificada para todos os usuários sem opção de alternância.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Disponibilizar os ajustes como opções configuráveis de uso individual e opcional.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- TEMPLATE DO DESENVOLVEDOR (R04) -->
+<template id="tpl-aplicar-desenvolvedor">
+
+    <h3>💻 Como o desenvolvedor pode aplicar a R04</h3>
+
+    <p>
+        Um resumo do que a marcação precisa garantir,
+        juntando as quatro dimensões da recomendação:
+    </p>
+
+    <ul class="lista">
+        <li><strong>Alternativas de interação:</strong> suporte eventos de teclado (<code>keydown</code> / <code>Space</code> / <code>Enter</code>) para todos os componentes interativos.</li>
+        <li><strong>Personalização:</strong> respeite consultas de mídia como <code>@media (prefers-reduced-motion: reduce)</code> para pausar animações.</li>
+        <li><strong>Flexibilidade na tarefa:</strong> configure inputs de arquivo para aceitar múltiplos formatos compatíveis (<code>accept=".pdf,.docx,.txt"</code>).</li>
+        <li><strong>Adaptação:</strong> persista preferências do usuário (como tema ou tamanho de fonte) no <code>localStorage</code> sem forçar alterações estáticas no layout.</li>
+    </ul>
+
+    <h4>Código</h4>
+
+    <pre><code>&lt;section aria-labelledby="titulo-envio"&gt;
+
+&lt;h2 id="titulo-envio"&gt;
+    Envio da Atividade Prática
+&lt;/h2&gt;
+
+&lt;!-- R04.3 — FLEXIBILIDADE NA TAREFA: Suporte a múltiplos formatos de arquivo --&gt;
+&lt;form id="form-envio"&gt;
+    &lt;label for="arquivo-atividade"&gt;
+        Selecione seu arquivo (PDF, DOCX ou TXT):
+    &lt;/label&gt;
+    &lt;input 
+        type="file" 
+        id="arquivo-atividade" 
+        name="arquivo" 
+        accept=".pdf,.docx,.txt"
+        aria-describedby="formato-ajuda"&gt;
+    
+    &lt;p id="formato-ajuda" class="texto-apoio"&gt;
+        Você pode enviar sua resposta em texto ou documento formatado.
+    &lt;/p&gt;
+
+    &lt;!-- R04.1 — ALTERNATIVAS DE INTERAÇÃO: Botão semântico acessível por teclado --&gt;
+    &lt;button type="submit"&gt;
+        Enviar atividade
+    &lt;/button&gt;
+&lt;/form&gt;
+
+&lt;!-- R04.2 — PERSONALIZAÇÃO: Painel de controle de preferências sensoriais --&gt;
+&lt;div class="painel-preferencias" role="region" aria-label="Preferências de exibição"&gt;
+    &lt;label for="toggle-animacao"&gt;
+        &lt;input type="checkbox" id="toggle-animacao"&gt;
+        Reduzir animações e movimento da tela
+    &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;</code></pre>
+
+   
+
+</template>
+
+<!-- TEMPLATE DO DESIGNER (R04) -->
+<template id="tpl-aplicar-design">
+    <h3>🎨 Como o designer pode aplicar a R04</h3>
+    <p>Projete interfaces flexíveis que permitam opções diversas de entrega de tarefa e ajustes de preferências sensoriais:</p>
+
+    <ul class="lista">
+        <li><strong>Alternativas de Interação:</strong> garanta equivalência de uso por teclado para gestos como arrastar e soltar.</li>
+        <li><strong>Personalização:</strong> ofereça caixas de seleção simples para reduzir movimento da tela ou ajustar contraste.</li>
+        <li><strong>Flexibilidade na Tarefa:</strong> apresente claramente opções de envio por documento, texto digitado ou gravação de voz.</li>
+        <li><strong>Adaptação:</strong> mantenha essas configurações como preferências individuais do usuário, sem impor um padrão estático.</li>
+    </ul>
+
+    <h4>Exemplo de Tela — Design de Interface (R04)</h4>  
+    <img
+            src="assets/img/recomendacao4.png"
+            alt="Exemplo para os designers."
+            class="imagem-guia">
+
+    <!-- <svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Protótipo minimalista da R04 com cartões de opções flexíveis de envio de tarefa e painel de preferências sensoriais">
+        Fundo do Canva
+        <rect width="800" height="480" rx="16" fill="#C8D5FF"/>
+
+         Cartão Container Principal 
+        <rect x="40" y="35" width="720" height="410" rx="16" fill="#F2F2F7" stroke="#B4C4FF" stroke-width="1.5"/>
+
+        Context Badge 
+        <rect x="65" y="60" width="180" height="24" rx="6" fill="#E0E0E8"/>
+        <text x="77" y="76" font-size="10" font-weight="700" fill="#55555A">Módulo 04 • Atividade Flexível</text>
+
+         Título e Subtítulo 
+        <text x="65" y="110" font-size="18" font-weight="800" fill="#2C2C2E">Envio da Atividade Prática 04</text>
+        <text x="65" y="130" font-size="11" fill="#6C6C70">Escolha a forma de entrega que melhor atende às suas necessidades de acesso e interface.</text>
+
+         Container de Formatos Flexíveis (R04.3) 
+        <rect x="65" y="155" width="670" height="135" rx="12" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1.5"/>
+        <text x="85" y="177" font-size="12" font-weight="700" fill="#2C2C2E">Opções de Formato de Envio (R04.3 — Flexibilidade na Tarefa)</text>
+
+        Opção 1: PDF/DOCX -->
+        <!-- <rect x="85" y="195" width="200" height="75" rx="8" fill="#F8F9FA" stroke="#4F46E5" stroke-width="2"/>
+        <text x="100" y="220" font-size="11" font-weight="700" fill="#4F46E5">📄 Documento PDF / DOCX</text>
+        <text x="100" y="242" font-size="10" fill="#6C6C70">Upload de arquivo formatado</text>
+
+         Opção 2: Texto Direto 
+        <rect x="300" y="195" width="200" height="75" rx="8" fill="#F8F9FA" stroke="#E5E5EA"/>
+        <text x="315" y="220" font-size="11" font-weight="700" fill="#2C2C2E">✍️ Texto Digitado Direto</text>
+        <text x="315" y="242" font-size="10" fill="#6C6C70">Escrever no editor da página</text>
+
+         Opção 3: Áudio de Resposta 
+        <rect x="515" y="195" width="200" height="75" rx="8" fill="#F8F9FA" stroke="#E5E5EA"/>
+        <text x="530" y="220" font-size="11" font-weight="700" fill="#2C2C2E">🎙️ Gravação de Áudio</text>
+        <text x="530" y="242" font-size="10" fill="#6C6C70">Gravar resposta em voz</text>
+
+         Painel de Ajuste Sensorial / Personalização (R04.2) 
+        <rect x="65" y="305" width="670" height="55" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+        <rect x="85" y="322" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2563EB"/>
+        <text x="89" y="334" font-size="10" font-weight="700" fill="#2563EB">✓</text>
+        <text x="110" y="334" font-size="11" font-weight="700" fill="#1E40AF">⚙️ Reduzir animações e movimentos da tela (R04.2)</text>
+
+        <rect x="430" y="322" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2563EB"/>
+        <text x="434" y="334" font-size="10" font-weight="700" fill="#2563EB">✓</text>
+        <text x="455" y="334" font-size="11" font-weight="700" fill="#1E40AF">👁️ Modo de Alto Contraste Visível</text>
+
+         Botão Principal 
+        <rect x="65" y="382" width="170" height="40" rx="8" fill="#4F46E5"/>
+        <text x="88" y="407" font-size="11" font-weight="700" fill="#FFFFFF">Enviar Atividade ➔</text>
+
+        <text x="250" y="407" font-size="10" fill="#6C6C70">📅 Prazo flexível de entrega: 28 de Setembro às 23:59</text>
+    </svg>  -->
+</template>
+
+<!-- =====================================================
+     BOTÃO VOLTAR AO TOPO
+===================================================== -->
+<button id="voltarTopo" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+<!-- =====================================================
+     JAVASCRIPT DE CONTROLE
+===================================================== -->
+<script src="assets/js/teste.js"></script>
+<script>
+    (function () {
+        var modalRecomendacao = document.getElementById('modal-recomendacao');
+        var modalRecomendacaoConteudo = document.getElementById('modal-recomendacao-conteudo');
+        var modalAplicar = document.getElementById('modal-aplicar');
+        var modalAplicarConteudo = document.getElementById('modal-aplicar-conteudo');
+
+        // Modais das Dimensões R04.x
+        document.querySelectorAll('[data-preview]').forEach(function (botao) {
+            botao.addEventListener('click', function () {
+                var chave = botao.getAttribute('data-preview');
+                var template = document.getElementById('tpl-preview-' + chave);
+                if (!template) return;
+                modalRecomendacaoConteudo.innerHTML = '';
+                modalRecomendacaoConteudo.appendChild(template.content.cloneNode(true));
+                modalRecomendacao.showModal();
+            });
+        });
+
+        // Modais de Aplicação (Desenvolvedor / Designer)
+        document.querySelectorAll('[data-aplicar]').forEach(function (botao) {
+            botao.addEventListener('click', function () {
+                var chave = botao.getAttribute('data-aplicar');
+                var template = document.getElementById('tpl-aplicar-' + chave);
+                if (!template) return;
+                modalAplicarConteudo.innerHTML = '';
+                modalAplicarConteudo.appendChild(template.content.cloneNode(true));
+                modalAplicar.showModal();
+            });
+        });
+
+        // Fechar Modais
+        document.querySelectorAll('[data-fechar-modal]').forEach(function (botao) {
+            botao.addEventListener('click', function () {
+                botao.closest('dialog').close();
+            });
+        });
+
+        // Fechar ao clicar no backdrop
+        [modalRecomendacao, modalAplicar].forEach(function (modal) {
+            modal.addEventListener('click', function (evento) {
+                var caixa = modal.getBoundingClientRect();
+                var dentro = evento.clientX >= caixa.left && evento.clientX <= caixa.right &&
+                             evento.clientY >= caixa.top && evento.clientY <= caixa.bottom;
+                if (!dentro) modal.close();
+            });
+        });
+    })();
+</script>
+
+</body>
+</html>

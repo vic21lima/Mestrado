@@ -1,0 +1,95 @@
+.categoria-icon {
+            width: 58px;
+            height: 58px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-shrink: 0;
+
+            border-radius: 14px;
+
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+
+            box-shadow:
+                0 4px 10px rgba(0, 0, 0, 0.06);
+
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease,
+                background-color 0.2s ease;
+        }
+
+        .categoria-icon svg {
+            width: 30px;
+            height: 30px;
+
+            stroke-width: 2;
+
+            transition: transform 0.2s ease;
+        }
+
+        .categoria-card:hover .categoria-icon {
+            transform: translateY(-3px) scale(1.04);
+
+            box-shadow:
+                0 7px 16px rgba(0, 0, 0, 0.10);
+        }
+
+        .categoria-card:hover .categoria-icon svg {
+            transform: scale(1.08);
+        }
+
+        /* Cores dos ícones */
+
+        .cor-1 .categoria-icon {
+            color: #2563eb;
+            background-color: #eff6ff;
+        }
+
+        .cor-2 .categoria-icon {
+            color: #7c3aed;
+            background-color: #f5f3ff;
+        }
+
+        .cor-3 .categoria-icon {
+            color: #0891b2;
+            background-color: #ecfeff;
+        }
+
+        .cor-4 .categoria-icon {
+            color: #d97706;
+            background-color: #fffbeb;
+        }
+
+        .cor-5 .categoria-icon {
+            color: #059669;
+            background-color: #ecfdf5;
+        }
+
+        .cor-6 .categoria-icon {
+            color: #dc2626;
+            background-color: #fef2f2;
+        }
+
+        .cor-7 .categoria-icon {
+            color: #4f46e5;
+            background-color: #eef2ff;
+        }
+
+        /* Responsividade */
+
+        @media (max-width: 600px) {
+            .categoria-icon {
+                width: 50px;
+                height: 50px;
+                border-radius: 12px;
+            }
+
+            .categoria-icon svg {
+                width: 26px;
+                height: 26px;
+            }
+        }

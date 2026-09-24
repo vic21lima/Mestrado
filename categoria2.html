@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R02 — Previsibilidade | Guia de Acessibilidade</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/estiloo.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/modais.js" defer></script>
+</head>
+<body>
+
+<!-- =====================================================
+     MENU DE NAVEGAÇÃO
+===================================================== -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">♿</span>
+            <span>Guia de Acessibilidade</span>
+        </a>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#categorias">Recomendações</a>
+           
+        </div>
+
+        <button class="accessibility" aria-label="Abrir opções de acessibilidade" title="Opções de acessibilidade">♿</button>
+    </nav>
+</header>
+
+<!-- =====================================================
+     CONTEÚDO PRINCIPAL DA PÁGINA
+     Ordem: 1. Recomendação R02  2. Instrução  3. O que é?
+     4. Por que é importante?  5. Dimensões (modal)
+     6. Como aplicar (modal dev/design)  7. Teste / Verifique
+     8. Referências
+===================================================== -->
+<main class="conteudo">
+
+    <!-- 1. RECOMENDAÇÃO R02 (título da página) -->
+    <section class="titulo-categoria">
+        <div class="icone">🔄</div>
+        <span class="codigo-recomendacao">RECOMENDAÇÃO R02</span>
+
+        <h1>Favorecer a previsibilidade durante a interação</h1>
+        <p>
+            Permita ao usuário compreender onde está, o que pode acontecer e como antecipar o comportamento do sistema sem mudanças inesperadas de contexto.
+        </p>
+    </section>
+
+    <!-- 2. INSTRUÇÃO (enunciado da recomendação) -->
+    <section class="secao">
+        <h2>Instrução</h2>
+        <div class="recomendacao-principal">
+            <strong>R02 — Favoreça a previsibilidade durante a interação.</strong>
+            <p>
+                Ações, mudanças e estados do sistema devem ser previsíveis e explicitamente comunicados para evitar que o usuário precise descobrir o funcionamento por tentativa e erro.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. O QUE É -->
+    <section class="secao">
+        <h2>O que é?</h2>
+        <p>
+            Esta recomendação trata de favorecer a previsibilidade durante a interação em sistemas digitais educacionais.
+        </p>
+        <p>
+            Em plataformas de ensino, a previsibilidade garante que avisos sobre prazos, alterações de datas, navegação entre módulos e atualização de notas ocorram de forma padronizada e sem surpresas.
+        </p>
+    </section>
+
+    <!-- 4. POR QUE É IMPORTANTE -->
+    <section class="secao">
+        <h2>Por que isso é importante?</h2>
+        <p>
+            Mudanças repentinas de layout ou comportamentos automáticos aumentam a ansiedade e desorientam o usuário durante a execução da tarefa.
+        </p>
+        <div class="destaque">
+            <strong>Atenção</strong>
+            <p>
+                Não apresentar a orientação como regra universal para todas as pessoas autistas. Considerar contexto, tarefa e possibilidade de personalização.
+            </p>
+        </div>
+    </section>
+
+    <!-- 5. DIMENSÕES DA RECOMENDAÇÃO (abrem modal) -->
+    <section class="secao">
+        <h2>Dimensões da recomendação</h2>
+
+        <div class="dimensoes">
+
+            <!-- R02.1 -->
+            <button class="dimensao" data-preview="consistencia" aria-haspopup="dialog">
+                <span class="numero">R02.1</span>
+                <h3>Consistência entre telas</h3>
+                <p>Mantenha localização, nomenclaturas e comportamentos consistentes.</p>
+            </button>
+
+            <!-- R02.2 -->
+            <button class="dimensao" data-preview="mudancas" aria-haspopup="dialog">
+                <span class="numero">R02.2</span>
+                <h3>Indicação de mudanças</h3>
+                <p>Informe mudanças relevantes de contexto ou estado.</p>
+            </button>
+
+            <!-- R02.3 -->
+            <button class="dimensao" data-preview="antecipacao" aria-haspopup="dialog">
+                <span class="numero">R02.3</span>
+                <h3>Antecipação da interação</h3>
+                <p>Deixe consequências importantes compreensíveis antes da ação.</p>
+            </button>
+
+            <!-- R02.4 -->
+            <button class="dimensao" data-preview="padroes" aria-haspopup="dialog">
+                <span class="numero">R02.4</span>
+                <h3>Manutenção de padrões</h3>
+                <p>Evite mudanças inesperadas no funcionamento.</p>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- 6. COMO APLICAR NA PRÁTICA (modal dev / design) -->
+    <section class="secao" id="como-aplicar">
+        <h2>Como aplicar na prática?</h2>
+        <p>
+            A seguir, exemplos de como a recomendação R02 pode ser aplicada por desenvolvedores e designers:
+        </p>
+
+        <div class="cartoes-aplicar">
+            <button class="cartao-aplicar" data-aplicar="desenvolvedor" aria-haspopup="dialog">
+                <span class="numero">👩‍💻</span>
+                <strong>Para desenvolvedores</strong>
+            </button>
+
+            <button class="cartao-aplicar" data-aplicar="design" aria-haspopup="dialog">
+                <span class="numero">🎨</span>
+                <strong>Para designers</strong>
+            </button>
+        </div>
+    </section>
+
+    <!-- 7. TESTE / VERIFIQUE (perguntas de validação) -->
+    <section class="secao">
+        <h2>Teste / Verifique</h2>
+        <p>Utilize as perguntas abaixo para revisar a previsibilidade das interações na tela:</p>
+        <div>
+            <ul>
+                <li>✓ O menu de navegação, botões e rotas mantêm a mesma localização e nomenclatura em todas as telas?</li>
+                <li>✓ O usuário é informado claramente quando o conteúdo ou o estado da página é atualizado?</li>
+                <li>✓ O sistema alerta previamente sobre consequências importantes (como início de cronômetros ou links que abrem em nova aba)?</li>
+                <li>✓ Os componentes respeitam o comportamento padrão, evitando atualizações automáticas de tela sem confirmação explícita?</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="fundamentacao">
+
+    <h2>Referências</h2>
+
+    <div class="fundamentacao-item">
+        <h3>GAIA</h3>
+        <p>
+            G22,G24,G27 — As recomendações estão relacionadas à consistência dos elementos e interações
+            <a href="https://gaia.wiki.br/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+    <div class="fundamentacao-item">
+        <h3>WCAG 2.2</h3>
+        <p>
+            3.2.1 , 3.2.2, 3.2.3 — Esses critérios estão relacionados à necessidade de que páginas e componentes apresentem comportamento previsível e consistente durante a interação.
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+    <div class="fundamentacao-item">
+        <h3>COGA</h3>
+        <p>
+            A recomendação se relaciona às orientações do W3C para design visual consistente, hierarquia familiar 
+           <a href="https://www.w3.org/TR/coga-user-research//" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+</section>
+    <a href="index.html#categorias" class="voltar">← Voltar para Categorias</a>
+
+</main>
+
+<!-- =====================================================
+     MODAIS NATIVOS (<dialog>)
+===================================================== -->
+<dialog id="modal-recomendacao" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-recomendacao-conteudo"></div>
+</dialog>
+
+<dialog id="modal-aplicar" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-aplicar-conteudo"></div>
+</dialog>
+
+<!-- =====================================================
+     TEMPLATES (conteúdo inserido dinamicamente nos modais)
+===================================================== -->
+
+<!-- Prévia R02.1 -->
+<template id="tpl-preview-consistencia">
+    <h3>R02.1 — Consistência entre telas</h3>
+    <p>Mantenha localização, nomenclaturas e comportamentos consistentes.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Alterar a nomenclatura ou o local dos botões de navegação entre diferentes páginas do mesmo curso.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Manter o menu de navegação e os botões de ação na mesma posição em todas as telas.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R02.2 -->
+<template id="tpl-preview-mudancas">
+    <h3>R02.2 — Indicação de mudanças</h3>
+    <p>Informe mudanças relevantes de contexto ou estado.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Atualizar o conteúdo da página via JavaScript sem avisar o leitor de tela ou o usuário.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Utilizar regiões vivas (role="status") para comunicar dinamicamente novos conteúdos ou alterações.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R02.3 -->
+<template id="tpl-preview-antecipacao">
+    <h3>R02.3 — Antecipação da interação</h3>
+    <p>Deixe consequências importantes compreensíveis antes da ação.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Abrir links em novas abas ou iniciar downloads automaticamente sem aviso prévio.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Deixar claro seja atraves de texto ou com  ícone visual que o link abrirá em uma nova janela ou baixar um arquivo.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R02.4 -->
+<template id="tpl-preview-padroes">
+    <h3>R02.4 — Manutenção de padrões</h3>
+    <p>Evite mudanças inesperadas no funcionamento.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Submeter formulários automaticamente ao alterar a opção de um campo de seleção (&lt;select&gt;).</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Exigir um clique explícito em um botão de envio ou filtro para confirmar a alteração.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Como aplicar — desenvolvedor -->
+<template id="tpl-aplicar-desenvolvedor">
+
+    <h3>👩‍💻 Como o desenvolvedor pode aplicar a R02</h3>
+
+    <p>
+        Um resumo do que a marcação precisa garantir,
+        juntando as quatro dimensões da recomendação:
+    </p>
+
+    <ul class="lista">
+        <li><strong>Consistência:</strong> mantenha a estrutura semântica de navegação, componentes e nomenclaturas padronizados em todas as telas (ex: <code>aria-current="page"</code>).</li>
+        <li><strong>Indicação de mudanças:</strong> comunique alterações dinâmicas de estado ou conteúdo usando regiões vivas (<code>role="status"</code> / <code>aria-live="polite"</code>) sem alterar o foco abruptamente.</li>
+        <li><strong>Antecipação:</strong> explicite as consequências de uma ação antes que ela ocorra (ex: informar com texto e <code>&lt;span class="sr-only"&gt;</code> que um link abre em nova aba).</li>
+        <li><strong>Manutenção de padrões:</strong> evite disparar alterações de tela ou submissões automáticas em eventos de mudança de campo (<code>onChange</code> em <code>&lt;select&gt;</code>), exigindo um botão explícito de confirmação.</li>
+    </ul>
+
+    <h4>Código</h4>
+
+    <pre><code>&lt;section aria-labelledby="modulo-titulo"&gt;
+
+&lt;nav aria-label="Navegação do módulo"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="modulo1.html" aria-current="page"&gt;Módulo 01&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="modulo2.html"&gt;Módulo 02&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="material.pdf" target="_blank" rel="noopener"&gt;
+                Material Complementar (PDF)
+                &lt;span class="sr-only"&gt;(abre em uma nova aba)&lt;/span&gt;
+                &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 id="modulo-titulo"&gt;
+    Módulo 01 — Atividades da Semana
+&lt;/h2&gt;
+
+&lt;form id="filtro-atividades"&gt;
+    &lt;label for="tipo-atividade"&gt;Filtrar por tipo:&lt;/label&gt;
+    &lt;select id="tipo-atividade" name="tipo"&gt;
+        &lt;option value="todas"&gt;Todas as atividades&lt;/option&gt;
+        &lt;option value="leitura"&gt;Leitura&lt;/option&gt;
+        &lt;option value="pratica"&gt;Prática&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;button type="submit"&gt;
+        Filtrar
+    &lt;/button&gt;
+&lt;/form&gt;
+
+&lt;div role="status" aria-live="polite"&gt;
+    Exibindo todas as 4 atividades do Módulo 01.
+&lt;/div&gt;
+
+&lt;/section&gt;</code></pre>
+
+    <!-- <h4>Tela (resultado)</h4>
+
+    <svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tela resultante da R02: menu de navegação padronizado, formulário de filtro com botão de envio explícito e área de status viva">
+        <rect x="0" y="0" width="480" height="260" fill="#f4f4f5" stroke="#d4d4d8" />
+        <text x="20" y="28" font-size="12" font-weight="700" fill="#166534">Módulo 01 (atual)</text>
+        <text x="130" y="28" font-size="12" fill="#3f3f46">Módulo 02</text>
+        <text x="210" y="28" font-size="12" fill="#2563eb">Material (PDF) ↗</text>
+        <line x1="20" y1="38" x2="460" y2="38" stroke="#d4d4d8" stroke-width="1" />
+        <text x="20" y="68" font-size="16" font-weight="700" fill="#18181b">Módulo 01 — Atividades da Semana</text>
+        <text x="20" y="100" font-size="12" fill="#3f3f46">Filtrar por tipo:</text>
+        <rect x="115" y="85" width="160" height="26" rx="4" fill="#ffffff" stroke="#a1a1aa" />
+        <text x="125" y="102" font-size="11" fill="#18181b">Todas as atividades ▼</text>
+        <rect x="285" y="85" width="70" height="26" rx="4" fill="#3f3f46" />
+        <text x="303" y="102" font-size="11" fill="#ffffff">Filtrar</text>
+        <rect x="20" y="135" width="440" height="36" rx="6" fill="#e0f2fe" stroke="#0284c7" />
+        <text x="30" y="157" font-size="12" fill="#0369a1">ℹ Exibindo todas as 4 atividades do Módulo 01.</text>
+    </svg> -->
+
+</template>
+
+<!-- Como aplicar — design -->
+<template id="tpl-aplicar-design">
+    <h3>🎨 Como o designer pode aplicar a R02</h3> 
+    <p> O protótipo de interface deve garantir previsibilidade de navegação, 
+        avisar previamente sobre consequências de ações e comunicar claramente 
+        qualquer mudança de estado: </p>  
+        <ul> 
+            <li> <strong>Consistência:</strong> Mantenha o menu de navegação,
+                os botões e os atalhos no mesmo local visual e com a mesma 
+                nomenclatura em todas as telas da plataforma. </li>
+            <li> <strong>Indicação de Mudanças:</strong> Informe o 
+                    usuário quando uma lista for atualizada ou o estado do 
+                    sistema for modificado, usando mensagens de status bem visíveis. </li> 
+            <li> <strong>Antecipação:</strong> Apresente avisos prévios sobre 
+                        contagens de tempo ou links externos (ex: ícone <em>↗</em>) antes que 
+                        o usuário clique no botão de ação. </li>
+            <li> <strong>Manutenção de Padrões:</strong> Evite
+                        alterar o conteúdo da tela automaticamente ao mudar
+                    o valor de um campo de seleção; exija sempre um botão 
+                     explícito de confirmação (ex: <em>"Filtrar"</em>). </li> 
+        </ul>
+    <img
+            src="assets/img/recomendacao2.png" width="100%" height="100%"
+            alt="Exemplo para os designers."
+            class="imagem-recomendação2">
+</template>
+
+<!-- =====================================================
+     BOTÃO VOLTAR AO TOPO
+===================================================== -->
+<button id="voltarTopo" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+</body>
+</html>

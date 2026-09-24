@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R05 — Feedback e Comunicação | Guia de Acessibilidade</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/estiloo.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/modais.js" defer></script>
+</head>
+<body>
+
+<!-- =====================================================
+     MENU DE NAVEGAÇÃO
+===================================================== -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">♿</span>
+            <span>Guia de Acessibilidade</span>
+        </a>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#categorias">Recomendações</a>
+      
+        </div>
+
+        <button class="accessibility" aria-label="Abrir opções de acessibilidade" title="Opções de acessibilidade">♿</button>
+    </nav>
+</header>
+
+<!-- =====================================================
+     CONTEÚDO PRINCIPAL DA PÁGINA
+     Ordem: 1. Recomendação R05  2. Instrução  3. O que é?
+     4. Por que é importante?  5. Dimensões (modal)
+     6. Como aplicar (modal dev/design)  7. Teste / Verifique
+     8. Referências
+===================================================== -->
+<main class="conteudo">
+
+    <!-- 1. RECOMENDAÇÃO R05 (título da página) -->
+    <section class="titulo-categoria">
+        <div class="icone">💬</div>
+        <span class="codigo-recomendacao">RECOMENDAÇÃO R05</span>
+
+        <h1>Fornecer feedback claro e compreensível durante a interação</h1>
+        <p>
+            Informe o que aconteceu, o que está acontecendo e, quando necessário, o que fazer em seguida após ações relevantes no sistema.
+        </p>
+    </section>
+
+    <!-- 2. INSTRUÇÃO (enunciado da recomendação) -->
+    <section class="secao">
+        <h2>Instrução</h2>
+        <div class="recomendacao-principal">
+            <strong>R05 — Forneça feedback claro e compreensível durante a interação.</strong>
+            <p>
+                Após ações importantes, o sistema deve informar de maneira perceptível e compreensível o que ocorreu e, quando aplicável, orientar os próximos passos do usuário.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. O QUE É -->
+    <section class="secao">
+        <h2>O que é?</h2>
+        <p>
+            Esta recomendação trata de fornecer feedback claro e compreensível durante a interação em sistemas digitais educacionais.
+        </p>
+        <p>
+            Em plataformas de ensino, ela orienta a emissão de respostas imediatas sobre o resultado do envio de tarefas, status de salvamento de respostas, avisos de carregamento de conteúdo e instruções diretas de correção de falhas.
+        </p>
+    </section>
+
+    <!-- 4. POR QUE É IMPORTANTE -->
+    <section class="secao">
+        <h2>Por que isso é importante?</h2>
+        <p>
+            A ausência de retorno após uma ação cria incerteza e ansiedade, levando o usuário a repetir cliques desnecessários ou abandonar o procedimento por dúvida sobre a conclusão.
+        </p>
+       
+
+        <div class="destaque">
+            <strong>Atenção</strong>
+            <p>
+                Não apresentar a orientação como regra universal estática. O feedback deve ser perceptível e informativo sem causar sobrecarga sensorial.
+            </p>
+        </div>
+    </section>
+
+    <!-- 5. DIMENSÕES DA RECOMENDAÇÃO (abrem modal) -->
+    <section class="secao">
+        <h2>Dimensões da recomendação</h2>
+
+        <div class="dimensoes">
+
+            <!-- R05.1 -->
+            <button class="dimensao" data-preview="confirmacao" aria-haspopup="dialog">
+                <span class="numero">R05.1</span>
+                <h3>Confirmação de ações</h3>
+                <p>Confirme explicitamente ações relevantes realizadas pelo usuário.</p>
+            </button>
+
+            <!-- R05.2 -->
+            <button class="dimensao" data-preview="estados" aria-haspopup="dialog">
+                <span class="numero">R05.2</span>
+                <h3>Comunicação de estados</h3>
+                <p>Informe carregamento, sucesso, erro, progresso ou indisponibilidade.</p>
+            </button>
+
+            <!-- R05.3 -->
+            <button class="dimensao" data-preview="erro" aria-haspopup="dialog">
+                <span class="numero">R05.3</span>
+                <h3>Mensagens de erro</h3>
+                <p>Explique o problema de forma clara e sem linguagem técnica ambígua.</p>
+            </button>
+
+            <!-- R05.4 -->
+            <button class="dimensao" data-preview="continuidade" aria-haspopup="dialog">
+                <span class="numero">R05.4</span>
+                <h3>Orientação para continuidade</h3>
+                <p>Indique como corrigir falhas ou como prosseguir após a conclusão.</p>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- 6. COMO APLICAR NA PRÁTICA (modal dev / design) -->
+    <section class="secao" id="como-aplicar">
+        <h2>Como aplicar na prática?</h2>
+        <p>
+            A seguir, exemplos de como a recomendação R05 pode ser aplicada por desenvolvedores e designers:
+        </p>
+
+        <div class="cartoes-aplicar">
+            <button class="cartao-aplicar" data-aplicar="desenvolvedor" aria-haspopup="dialog">
+                <strong>💻Para desenvolvedores</strong>
+            </button>
+
+            <button class="cartao-aplicar" data-aplicar="design" aria-haspopup="dialog">
+                
+                <strong>🎨 Para designers</strong>
+            </button>
+        </div>
+    </section>
+
+    <!-- 7. TESTE / VERIFIQUE (perguntas de validação) -->
+    <section class="secao">
+        <h2>Teste / Verifique</h2>
+        <p>Utilize as perguntas abaixo para revisar o feedback e a comunicação do sistema:</p>
+        <div>
+            <ul>
+                <li>✓ Após uma ação relevante (como enviar uma atividade), o sistema exibe uma mensagem clara informando que ela foi concluída?</li>
+                <li>✓ Carregamento, sucesso, erro e progresso são comunicados de forma perceptível, inclusive para leitores de tela?</li>
+                <li>✓ O erro explica o problema em linguagem simples e está associado ao campo correspondente?</li>
+                <li>✓ A mensagem indica o que fazer em seguida, seja para corrigir a falha ou para prosseguir após a conclusão?</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="fundamentacao">
+
+    <h2>Referências</h2>
+
+    <div class="fundamentacao-item">
+        <h3>GAIA</h3>
+        <p>
+            G19, G20, G24 e G27 — recomendações relacionadas à instruções de interação, mensagens de erros e ajuda para solucionar erros
+            <a href="https://gaia.wiki.br/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+    <div class="fundamentacao-item">
+        <h3>WCAG 2.2</h3>
+        <p>
+            3.3.1, 3.3.2,3.3.3,3.3.4,4.1.3 — critérios relacionados
+            Esses critérios têm relação direta com comunicação de erros, instruções e estados do sistema. <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+    <div class="fundamentacao-item">
+        <h3>COGA</h3>
+        <p>
+           Help Users Avoid Mistakes and Know How to Correct Them: <br>
+           Orientações correspondente a evitar erros, perceber erros, corrigir erros, e receber feedback 
+           <a href="https://www.w3.org/TR/coga-user-research/" target="_blank" rel="noopener noreferrer">
+            Ver referência ↗
+        </a>
+        </p>
+       
+    </div>
+
+
+</section>
+
+    <a href="index.html#categorias" class="voltar">← Voltar para Categorias</a>
+
+</main>
+
+<!-- =====================================================
+     MODAIS NATIVOS (<dialog>)
+===================================================== -->
+<dialog id="modal-recomendacao" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-recomendacao-conteudo"></div>
+</dialog>
+
+<dialog id="modal-aplicar" class="modal">
+    <button class="modal-fechar" aria-label="Fechar" data-fechar-modal>✕</button>
+    <div id="modal-aplicar-conteudo"></div>
+</dialog>
+
+<!-- =====================================================
+     TEMPLATES DE CONTEÚDO DOS MODAIS
+===================================================== -->
+
+<!-- Prévia R05.1 -->
+<template id="tpl-preview-confirmacao">
+    <h3>R05.1 — Confirmação de ações</h3>
+    <p>Confirme explicitamente ações relevantes realizadas pelo usuário.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Submeter uma atividade sem exibir nenhuma mensagem visual ou anúncio de conclusão.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Exibir uma mensagem clara ("Atividade enviada com sucesso").</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R05.2 -->
+<template id="tpl-preview-estados">
+    <h3>R05.2 — Comunicação de estados</h3>
+    <p>Informe carregamento, sucesso, erro, progresso ou indisponibilidade.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Deixar a tela congelada sem indicação visual ou sonora durante a requisição de salvamento.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Indicar o estado ativo de carregamento ("Salvando rascunho...") e atualizar para a confirmação ao concluir.</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R05.3 -->
+<template id="tpl-preview-erro">
+    <h3>R05.3 — Mensagens de erro</h3>
+    <p>Explique o problema de forma clara e sem linguagem técnica ambígua.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Apresentar mensagens genéricas como "Erro 400" ou "Falha no sistema".</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Descrever a falha de maneira objetiva: "O arquivo selecionado excede o limite de 10 MB."</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Prévia R05.4 -->
+<template id="tpl-preview-continuidade">
+    <h3>R05.4 — Orientação para continuidade</h3>
+    <p>Indique como corrigir falhas ou como prosseguir após a conclusão.</p>
+    <div class="exemplo">
+        <h4>Evite × Prefira</h4>
+        <div class="exemplo-ruim">
+            <span class="rotulo-exemplo">✕ Evite</span>
+            <p>Notificar um erro sem orientar qual etapa precisa ser corrigida.</p>
+        </div>
+        <div class="exemplo-bom">
+            <span class="rotulo-exemplo">✓ Prefira</span>
+            <p><strong>Indicar o próximo passo: "Selecione um arquivo PDF e clique novamente em Enviar."</strong></p>
+        </div>
+    </div>
+</template>
+
+<!-- Como aplicar — desenvolvedor -->
+<template id="tpl-aplicar-desenvolvedor">
+
+    <h3>👩‍💻 Como o desenvolvedor pode aplicar a R05</h3>
+
+    <p>
+        Um resumo do que a marcação precisa garantir,
+        juntando as quatro dimensões da recomendação:
+    </p>
+
+    <ul class="lista">
+        <li><strong>Confirmação:</strong> confirme ações concluídas declarando regiões vivas com <code>role="status"</code> ou <code>aria-live="polite"</code>.</li>
+        <li><strong>Comunicação de estados:</strong> altere os atributos de estado (como <code>aria-busy="true"</code> durante o carregamento e <code>disabled</code> no botão) para impedir cliques duplicados.</li>
+        <li><strong>Mensagens de erro:</strong> associe o texto do erro ao campo correspondente utilizando <code>aria-describedby</code> ou <code>aria-errormessage</code> e marque o campo com <code>aria-invalid="true"</code>.</li>
+        <li><strong>Orientação para continuidade:</strong> inclua a instrução explícita de correção na própria string do anúncio de erro.</li>
+    </ul>
+
+    <h4>Código</h4>
+
+    <pre><code>&lt;section aria-labelledby="titulo-envio-tarefa"&gt;
+
+&lt;h2 id="titulo-envio-tarefa"&gt;
+    Envio da Atividade 05
+&lt;/h2&gt;
+
+&lt;form id="form-atividade"&gt;
+    &lt;label for="campo-arquivo"&gt;Arquivo da resposta (PDF):&lt;/label&gt;
+    &lt;input
+        type="file"
+        id="campo-arquivo"
+        name="arquivo"
+        accept=".pdf"
+        aria-invalid="true"
+        aria-describedby="mensagem-erro"&gt;
+
+    &lt;!-- R05.3 e R05.4 — MENSAGEM DE ERRO COM ORIENTAÇÃO DE CORREÇÃO --&gt;
+    &lt;p id="mensagem-erro" class="texto-erro" role="alert"&gt;
+        &lt;strong&gt;✕ Não foi possível enviar:&lt;/strong&gt;
+        O arquivo selecionado deve ser um PDF de até 5 MB.
+        Selecione outro arquivo e tente novamente.
+    &lt;/p&gt;
+
+    &lt;!-- R05.2 — ESTADO DO BOTÃO DE AÇÃO --&gt;
+    &lt;button type="submit" id="btn-enviar"&gt;
+        Enviar resposta
+    &lt;/button&gt;
+&lt;/form&gt;
+
+&lt;!-- R05.1 e R05.2 — CONFIRMAÇÃO E REGIÃO VIVA DE STATUS --&gt;
+&lt;div id="status-envio" role="status" aria-live="polite" class="caixa-status"&gt;
+    ✓ Atividade 05 enviada com sucesso!
+    Você pode acompanhar o status na aba Notas.
+&lt;/div&gt;
+
+&lt;/section&gt;</code></pre>
+
+
+
+</template>
+
+<!-- Como aplicar — design -->
+<template id="tpl-aplicar-design">
+    <h3>🎨 Como o designer pode aplicar a R05</h3>
+    <!-- <p>Projete feedbacks visuais perceptíveis, claros e informativos:</p>
+    <ul class="lista">
+        <li><strong>Multi-sensorial:</strong> Combine texto, ícones de apoio e cores contrastantes — nunca dependa apenas da cor para indicar status.</li>
+        <li><strong>Visibilidade dos Estados:</strong> Desenhe estados claros para repouso, carregamento (spinners/skeleton), sucesso e erro.</li>
+        <li><strong>Microcopy de Orientação:</strong> Escreva mensagens de erro instrutivas que expliquem o problema e a solução imediata.</li>
+    </ul> --> 
+    <p>Em construção</p>
+</template>
+
+<!-- =====================================================
+     BOTÃO VOLTAR AO TOPO
+===================================================== -->
+<button id="voltarTopo" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+</body>
+</html>
